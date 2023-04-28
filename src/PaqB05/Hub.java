@@ -177,6 +177,7 @@ public class Hub {
      *
      * @return plano del Hub
      */
+    //test
     public String toString() {
         StringBuffer s = new StringBuffer();
 

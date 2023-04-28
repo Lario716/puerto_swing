@@ -9,7 +9,7 @@ public class Peso extends JFrame {
     private JPanel panel1;
     private JButton PTotal;
 
-
+//test
     public Peso(int suma) {
 
         this.setContentPane(panel1);

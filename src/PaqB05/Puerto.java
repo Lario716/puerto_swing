@@ -55,6 +55,7 @@ public class Puerto {
 
         return false;
     }
+    //test
     public int CalcularPeso() {
         int peso3 = 0;
         for (int i = 0; i < this.hubs.length; i++) {
