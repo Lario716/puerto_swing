@@ -1,3 +1,4 @@
+//Pablo Lario Muñoz
 package PaqB05;
 
 /**
@@ -53,6 +54,14 @@ public class Puerto {
         }
 
         return false;
+    }
+    public int CalcularPeso() {
+        int peso3 = 0;
+        for (int i = 0; i < this.hubs.length; i++) {
+            peso3 = peso3 + this.hubs[i].CalcularPeso();
+
+        }
+        return peso3;
     }
 
 

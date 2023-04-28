@@ -1,3 +1,4 @@
+//Pablo Lario Muñoz
 package PaqB05.interfaz;
 
 import javax.swing.*;
